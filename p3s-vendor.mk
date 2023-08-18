@@ -9,46 +9,27 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/p3s/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/p3s/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/samsung/p3s/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
+    vendor/samsung/p3s/proprietary/vendor/etc/gnss/gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.xml \
     vendor/samsung/p3s/proprietary/vendor/etc/mixer_gains.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_gains.xml \
-    vendor/samsung/p3s/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
-    vendor/samsung/p3s/proprietary/vendor/firmware/APBargeIn_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBargeIn_AUDIO_SLSI.bin \
+    vendor/samsung/p3s/proprietary/vendor/etc/mixer_usb_default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_usb_default.xml \
+    vendor/samsung/p3s/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf \
     vendor/samsung/p3s/proprietary/vendor/firmware/APBiBF_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBiBF_AUDIO_SLSI.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/APDV_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APDV_AUDIO_SLSI.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/APVD_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APVD_AUDIO_SLSI.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/AP_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/AP_AUDIO_SLSI.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/NPU.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/NPU.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/OD_V2.1.6_01_26_QVGA.nnc:$(TARGET_COPY_OUT_VENDOR)/firmware/OD_V2.1.6_01_26_QVGA.nnc \
-    vendor/samsung/p3s/proprietary/vendor/firmware/OD_V2.3.7_02_05_VGA.nnc:$(TARGET_COPY_OUT_VENDOR)/firmware/OD_V2.3.7_02_05_VGA.nnc \
     vendor/samsung/p3s/proprietary/vendor/firmware/SoundBoosterParam.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SoundBoosterParam.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/a2dpcom.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a2dpcom.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/abox_tplg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/abox_tplg.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/avsyncmix.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/avsyncmix.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/bcm4389B0_murata.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4389B0_murata.hcd \
     vendor/samsung/p3s/proprietary/vendor/firmware/bcm4389B0_semco.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4389B0_semco.hcd \
     vendor/samsung/p3s/proprietary/vendor/firmware/bcm4389C0_murata.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4389C0_murata.hcd \
     vendor/samsung/p3s/proprietary/vendor/firmware/bcm4389C0_semco.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4389C0_semco.hcd \
     vendor/samsung/p3s/proprietary/vendor/firmware/bcm4389C1_murata.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4389C1_murata.hcd \
     vendor/samsung/p3s/proprietary/vendor/firmware/bcm4389C1_semco.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4389C1_semco.hcd \
-    vendor/samsung/p3s/proprietary/vendor/firmware/bidirmic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bidirmic.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/bt_vendor_rf.xml:$(TARGET_COPY_OUT_VENDOR)/firmware/bt_vendor_rf.xml \
-    vendor/samsung/p3s/proprietary/vendor/firmware/calliope_dram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope_dram.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/calliope_dram_2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope_dram_2.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/calliope_sram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope_sram.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/calliope_sram_2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope_sram_2.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/clFGN10BitNV12_32.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/clFGN10BitNV12_32.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/clFGN10BitNV12_64.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/clFGN10BitNV12_64.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/clFGN10BitYV12_32.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/clFGN10BitYV12_32.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/clFGN10BitYV12_64.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/clFGN10BitYV12_64.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/clFGN8BitNV12_32.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/clFGN8BitNV12_32.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/clFGN8BitNV12_64.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/clFGN8BitNV12_64.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/clFGN8BitYV12_32.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/clFGN8BitYV12_32.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/clFGN8BitYV12_64.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/clFGN8BitYV12_64.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/cs35l40-bot-dsp1-spk-prot-calib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l40-bot-dsp1-spk-prot-calib.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/cs35l40-bot-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l40-bot-dsp1-spk-prot.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/cs35l40-bot-dsp1-spk-prot.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l40-bot-dsp1-spk-prot.wmfw \
     vendor/samsung/p3s/proprietary/vendor/firmware/cs35l40-rcv-dsp1-spk-prot-calib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l40-rcv-dsp1-spk-prot-calib.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/cs35l40-rcv-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l40-rcv-dsp1-spk-prot.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/cs35l40-rcv-dsp1-spk-prot.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l40-rcv-dsp1-spk-prot.wmfw \
     vendor/samsung/p3s/proprietary/vendor/firmware/cs40l20.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l20.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/cs40l20.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l20.wmfw \
     vendor/samsung/p3s/proprietary/vendor/firmware/cs40l25a.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a.wmfw \
@@ -58,40 +39,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/p3s/proprietary/vendor/firmware/cs40l25a_exc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_exc.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/cs40l25a_f0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_f0.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/dax_param.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dax_param.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/default_configuration.flm.cfg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/default_configuration.flm.cfg.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/dsp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dsp.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/dsp_do.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dsp_do.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/dsp_gkt.xml:$(TARGET_COPY_OUT_VENDOR)/firmware/dsp_gkt.xml \
-    vendor/samsung/p3s/proprietary/vendor/firmware/dsp_iac_dm.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dsp_iac_dm.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/dsp_iac_dm_do.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dsp_iac_dm_do.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/dsp_iac_pm.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dsp_iac_pm.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/dsp_iac_pm_do.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dsp_iac_pm_do.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/dsp_ivp_dm.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dsp_ivp_dm.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/dsp_ivp_dm_do.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dsp_ivp_dm_do.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/dsp_ivp_pm.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dsp_ivp_pm.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/dsp_ivp_pm_do.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dsp_ivp_pm_do.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/dsp_master.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dsp_master.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/dsp_reloc_rules.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dsp_reloc_rules.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/dual_cal_tele_tele2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dual_cal_tele_tele2.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/dual_cal_wide_swide.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dual_cal_wide_swide.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/dual_cal_wide_tele.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dual_cal_wide_tele.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/is_lib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/is_lib.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/is_mcu_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/is_mcu_fw.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/is_rta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/is_rta.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/libgaussian3x3.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/libgaussian3x3.elf \
-    vendor/samsung/p3s/proprietary/vendor/firmware/libivp.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/libivp.elf \
-    vendor/samsung/p3s/proprietary/vendor/firmware/liblog.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/liblog.elf \
-    vendor/samsung/p3s/proprietary/vendor/firmware/libnn.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/libnn.elf \
-    vendor/samsung/p3s/proprietary/vendor/firmware/listenbackeffect.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/listenbackeffect.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/mfc/mfc_fw_flash.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc/mfc_fw_flash.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/p3_00_generic_xtalk_shape.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/p3_00_generic_xtalk_shape.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/p3_vl53l5.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/p3_vl53l5.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/rxse.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rxse.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/sb_ll.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sb_ll.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/sb_music.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sb_music.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/sb_others.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sb_others.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/secure_configuration.flm.cfg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/secure_configuration.flm.cfg.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/setfile_2ld.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_2ld.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/setfile_3j1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3j1.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/setfile_3j1_tele1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3j1_tele1.bin \
@@ -101,12 +58,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/p3s/proprietary/vendor/firmware/setfile_hm1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_hm1.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/setfile_hm3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_hm3.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/setfile_imx563.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_imx563.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/txse1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/txse1.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/txse2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/txse2.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/txse4.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/txse4.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/uwb/libsr100t_dev_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/uwb/libsr100t_dev_fw.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/uwb/libsr100t_prod_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/uwb/libsr100t_prod_fw.bin \
-    vendor/samsung/p3s/proprietary/vendor/firmware/volumemonitor.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/volumemonitor.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/vts.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vts.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/w9020_p3_c0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/w9020_p3_c0.bin \
     vendor/samsung/p3s/proprietary/vendor/firmware/w9020_p3_c1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/w9020_p3_c1.bin \
@@ -136,20 +90,30 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/p3s/proprietary/vendor/lib/hw/camera.exynos2100.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.exynos2100.so \
     vendor/samsung/p3s/proprietary/vendor/lib/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera3.so \
     vendor/samsung/p3s/proprietary/vendor/lib/libexynoscamera_vpl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera_vpl_plugin.so \
+    vendor/samsung/p3s/proprietary/vendor/lib/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosdisplay.so \
     vendor/samsung/p3s/proprietary/vendor/lib/libmulticam_image_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmulticam_image_optical_zoom.so \
     vendor/samsung/p3s/proprietary/vendor/lib/libmulticam_video_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmulticam_video_optical_zoom.so \
     vendor/samsung/p3s/proprietary/vendor/lib/librecordalive.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecordalive.so \
+    vendor/samsung/p3s/proprietary/vendor/lib/libtriplecapture_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtriplecapture_interface.so \
+    vendor/samsung/p3s/proprietary/vendor/lib/libtriplepreview_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtriplepreview_interface.so \
     vendor/samsung/p3s/proprietary/vendor/lib/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwrappergps.so \
+    vendor/samsung/p3s/proprietary/vendor/lib/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.grip.so \
+    vendor/samsung/p3s/proprietary/vendor/lib/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.sensorhub.so \
+    vendor/samsung/p3s/proprietary/vendor/lib/soundfx/libaudiosaplus_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiosaplus_sec.so \
     vendor/samsung/p3s/proprietary/vendor/lib/soundfx/libsamsungSoundbooster_plus.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libsamsungSoundbooster_plus.so \
     vendor/samsung/p3s/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
     vendor/samsung/p3s/proprietary/vendor/lib64/hw/camera.exynos2100.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.exynos2100.so \
     vendor/samsung/p3s/proprietary/vendor/lib64/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera3.so \
     vendor/samsung/p3s/proprietary/vendor/lib64/libexynoscamera_vpl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera_vpl_plugin.so \
+    vendor/samsung/p3s/proprietary/vendor/lib64/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosdisplay.so \
     vendor/samsung/p3s/proprietary/vendor/lib64/libmulticam_image_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmulticam_image_optical_zoom.so \
     vendor/samsung/p3s/proprietary/vendor/lib64/libmulticam_video_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmulticam_video_optical_zoom.so \
-    vendor/samsung/p3s/proprietary/vendor/lib64/libsec-ril-dsds.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec-ril-dsds.so \
-    vendor/samsung/p3s/proprietary/vendor/lib64/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec-ril.so \
+    vendor/samsung/p3s/proprietary/vendor/lib64/libtriplecapture_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtriplecapture_interface.so \
+    vendor/samsung/p3s/proprietary/vendor/lib64/libtriplepreview_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtriplepreview_interface.so \
     vendor/samsung/p3s/proprietary/vendor/lib64/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwrappergps.so \
+    vendor/samsung/p3s/proprietary/vendor/lib64/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.grip.so \
+    vendor/samsung/p3s/proprietary/vendor/lib64/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.sensorhub.so \
+    vendor/samsung/p3s/proprietary/vendor/lib64/soundfx/libaudiosaplus_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiosaplus_sec.so \
     vendor/samsung/p3s/proprietary/vendor/lib64/soundfx/libsamsungSoundbooster_plus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libsamsungSoundbooster_plus.so \
     vendor/samsung/p3s/proprietary/vendor/lib64/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswdap.so \
     vendor/samsung/p3s/proprietary/vendor/tee/00000000-0000-0000-0000-000000010081:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000010081 \
@@ -160,9 +124,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/p3s/proprietary/vendor/tee/00000000-0000-0000-0000-0050524f4341:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-0050524f4341 \
     vendor/samsung/p3s/proprietary/vendor/tee/00000000-0000-0000-0000-0053545354ab:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-0053545354ab \
     vendor/samsung/p3s/proprietary/vendor/tee/00000000-0000-0000-0000-00575644524d:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-00575644524d \
-    vendor/samsung/p3s/proprietary/vendor/tee/00000000-0000-0000-0000-42494f535542:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-42494f535542 \
     vendor/samsung/p3s/proprietary/vendor/tee/00000000-0000-0000-0000-44534d536463:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-44534d536463 \
-    vendor/samsung/p3s/proprietary/vendor/tee/00000000-0000-0000-0000-46494e474502:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-46494e474502 \
     vendor/samsung/p3s/proprietary/vendor/tee/00000000-0000-0000-0000-474154454b45:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-474154454b45 \
     vendor/samsung/p3s/proprietary/vendor/tee/00000000-0000-0000-0000-487641557457:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-487641557457 \
     vendor/samsung/p3s/proprietary/vendor/tee/00000000-0000-0000-0000-4b45594d5354:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-4b45594d5354 \
@@ -179,13 +141,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/p3s/proprietary/vendor/tee/00000000-0000-0000-0000-656e676d6f64:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-656e676d6f64 \
     vendor/samsung/p3s/proprietary/vendor/tee/00000000-0000-0000-0000-657365636f6d:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-657365636f6d \
     vendor/samsung/p3s/proprietary/vendor/tee/00000000-0000-0000-0000-6b6e78677564:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-6b6e78677564 \
-    vendor/samsung/p3s/proprietary/vendor/tee/00000000-0000-0000-0000-6d706f667376:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-6d706f667376 \
-    vendor/samsung/p3s/proprietary/vendor/tee/00000000-0000-0000-0000-6d70776c646c:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-6d70776c646c \
     vendor/samsung/p3s/proprietary/vendor/tee/00000000-0000-0000-0000-6d73745f5441:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-6d73745f5441 \
     vendor/samsung/p3s/proprietary/vendor/tee/driver/00000000-0000-0000-0000-494363447256:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-494363447256 \
     vendor/samsung/p3s/proprietary/vendor/tee/driver/00000000-0000-0000-0000-4d53546d7374:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-4d53546d7374 \
     vendor/samsung/p3s/proprietary/vendor/tee/driver/00000000-0000-0000-0000-53626f786476:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-53626f786476 \
     vendor/samsung/p3s/proprietary/vendor/tee/driver/00000000-0000-0000-0000-564c544b4456:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-564c544b4456 \
-    vendor/samsung/p3s/proprietary/vendor/tee/driver/18d9f073-18a5-4ade-9def-875e07f7f293_:$(TARGET_COPY_OUT_VENDOR)/tee/driver/18d9f073-18a5-4ade-9def-875e07f7f293_ \
-    vendor/samsung/p3s/proprietary/vendor/tee/ffffffff-0000-0000-0000-000000000030:$(TARGET_COPY_OUT_VENDOR)/tee/ffffffff-0000-0000-0000-000000000030 \
-    vendor/samsung/p3s/proprietary/vendor/tee/tui/resolution_common/ID00000100:$(TARGET_COPY_OUT_VENDOR)/tee/tui/resolution_common/ID00000100
+    vendor/samsung/p3s/proprietary/vendor/tee/ffffffff-0000-0000-0000-000000000030:$(TARGET_COPY_OUT_VENDOR)/tee/ffffffff-0000-0000-0000-000000000030
